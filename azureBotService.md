@@ -8,4 +8,8 @@ c.	提供了bot framework和SDK便于开发人员进一步定制化。
 
 d.	提供了一些工具，bot framework composer来端到端创建bot服务，以及 bot framework emulator来辅助测试，通过ngrok远程debug。
 
+### 2.	现在公司在新推荐power virtual agent和power platform来构建机器人
+
+***对于我们这种developer，通过vscode，它也提供了很好的脚手架功能，快速创建***
+
 
