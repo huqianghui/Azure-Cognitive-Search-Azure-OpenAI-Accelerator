@@ -54,5 +54,39 @@ az bot prepare-deploy --lang <language> --code-dir "."
 
 <img width="399" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/f27231e3-f712-44be-af16-a9410e295c8c">
 
+7. Web 测试 和 ngrok测试
+
+   <img width="344" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/803b5fe7-8242-4c80-b056-3e799929fd27">
+
+配置ngrok路径来转发远端请求，变成本地突破防火墙(有兼容性问题，一直没跑通)
+<img width="369" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/1f3da896-9703-4255-b91f-0e14045b61f8">
+
+8. 加入teams channel
+
+   <img width="326" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/1bb3381e-fb13-4975-8d09-a0968572c53d">
+
+<img width="376" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/31a66c9b-4a1d-4c90-a8d7-ae63a4c7bbbf">
+
+<img width="758" alt="Screenshot 2023-08-28 at 16 24 50" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/9a859ddd-be7b-4e35-ab57-190936313737">
+
+9. Web app developer
+
+    <img width="381" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/c13af8ea-e80f-4832-b576-05ec1740108a">
+
+增加一个index.html,把内容拷贝过去，然后增加一个默认映射
+<img width="378" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/27fbba0e-b19f-4a98-96fc-80d865bba8d2">
+
+再次发布这个bot，默认就可以访问了，不再是仅仅一个backend server
+
+<img width="384" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/7830380b-5306-4671-9caa-36f326a800de">
+
+
+
+
+
+
+
+
+
 
 
