@@ -35,4 +35,24 @@ az ad app create --display-name "<app-registration-display-name>" --sign-in-audi
 
 az ad app credential reset --id "<appId>"
 
+<img width="468" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/531a46ea-5db8-42a7-85db-d9746e81466c">
+
+5. 创建好bot service后，就可以把app ，创建并发布到azure上。
+
+如果需要适用于bot service的app，需要有env和web.config文件。
+参考：在 Azure 中预配和发布机器人 - Bot Service | Microsoft Learn
+JavaScript	.env	支持用于管理机器人标识的所有三种应用程序类型。
+az bot prepare-deploy --lang <language> --code-dir "."
+
+<img width="468" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/d5823f65-0d7b-4ea3-94f8-fe547324bc5c">
+
+6. 发布好了，有对应的endpoint 和 application insight，再来配置bot 服务和app的映射关系。
+
+   <img width="379" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/1871b205-261c-45f5-83ef-6a6c3a819234">
+
+在application insight中Application api key额外生成一个：
+
+<img width="399" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/f27231e3-f712-44be-af16-a9410e295c8c">
+
+
 
