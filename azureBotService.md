@@ -13,3 +13,26 @@ d.	提供了一些工具，bot framework composer来端到端创建bot服务，�
 ***对于我们这种developer，通过vscode，它也提供了很好的脚手架功能，快速创建***
 
 
+### 3.	个人开发过程
+
+a.	首先通过js框架，生成了一个project，通过本地可以通过node start跑起来，或者debug模式。然后可以通过bot framework emulator来测试。
+
+<img width="1139" alt="Screenshot 2023-08-28 at 16 18 44" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/fe555e83-cc2e-4610-970a-6f48438ad1b6">
+
+<img width="468" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/f557c00e-6ff6-4a55-9c13-a6c509436481">
+
+1.	可以通过bot文件，导入。主要是endpoint设定。
+   
+2.	可以上传文件，或者语音输入
+   
+3.	通过点击link 查看上面的结果。
+
+
+4.	在portal上创建bot service，指定自己已经创建的appId 
+
+参考文档：在 Azure 中预配和发布机器人 - Bot Service | Microsoft Learn
+az ad app create --display-name "<app-registration-display-name>" --sign-in-audience "AzureADandPersonalMicrosoftAccount"
+
+az ad app credential reset --id "<appId>"
+
+
