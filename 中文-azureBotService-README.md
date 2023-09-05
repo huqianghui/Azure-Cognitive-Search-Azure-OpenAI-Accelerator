@@ -35,7 +35,7 @@ az ad app create --display-name "<app-registration-display-name>" --sign-in-audi
 
 az ad app credential reset --id "<appId>"
 
-<img width="468" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/531a46ea-5db8-42a7-85db-d9746e81466c">
+<img width="1139" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/531a46ea-5db8-42a7-85db-d9746e81466c">
 
 5. 创建好bot service后，就可以把app ，创建并发布到azure上。
 
@@ -44,41 +44,43 @@ az ad app credential reset --id "<appId>"
 JavaScript	.env	支持用于管理机器人标识的所有三种应用程序类型。
 az bot prepare-deploy --lang <language> --code-dir "."
 
-<img width="468" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/d5823f65-0d7b-4ea3-94f8-fe547324bc5c">
+<img width="1139" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/d5823f65-0d7b-4ea3-94f8-fe547324bc5c">
 
 6. 发布好了，有对应的endpoint 和 application insight，再来配置bot 服务和app的映射关系。
 
-   <img width="379" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/1871b205-261c-45f5-83ef-6a6c3a819234">
+<img width="1139" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/1871b205-261c-45f5-83ef-6a6c3a819234">
 
 在application insight中Application api key额外生成一个：
 
-<img width="399" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/f27231e3-f712-44be-af16-a9410e295c8c">
+<img width="1139" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/f27231e3-f712-44be-af16-a9410e295c8c">
 
 7. Web 测试 和 ngrok测试
 
-   <img width="344" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/803b5fe7-8242-4c80-b056-3e799929fd27">
+<img width="1139" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/803b5fe7-8242-4c80-b056-3e799929fd27">
 
 配置ngrok路径来转发远端请求，变成本地突破防火墙(有兼容性问题，一直没跑通)
-<img width="369" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/1f3da896-9703-4255-b91f-0e14045b61f8">
+
+<img width="1139" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/1f3da896-9703-4255-b91f-0e14045b61f8">
 
 8. 加入teams channel
 
-   <img width="326" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/1bb3381e-fb13-4975-8d09-a0968572c53d">
+<img width="1139" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/1bb3381e-fb13-4975-8d09-a0968572c53d">
 
-<img width="376" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/31a66c9b-4a1d-4c90-a8d7-ae63a4c7bbbf">
+<img width="1139" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/31a66c9b-4a1d-4c90-a8d7-ae63a4c7bbbf">
 
-<img width="758" alt="Screenshot 2023-08-28 at 16 24 50" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/9a859ddd-be7b-4e35-ab57-190936313737">
+<img width="1139" alt="Screenshot 2023-08-28 at 16 24 50" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/9a859ddd-be7b-4e35-ab57-190936313737">
 
 9. Web app developer
 
-    <img width="381" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/c13af8ea-e80f-4832-b576-05ec1740108a">
+<img width="1139" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/c13af8ea-e80f-4832-b576-05ec1740108a">
 
 增加一个index.html,把内容拷贝过去，然后增加一个默认映射
-<img width="378" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/27fbba0e-b19f-4a98-96fc-80d865bba8d2">
+
+<img width="1139" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/27fbba0e-b19f-4a98-96fc-80d865bba8d2">
 
 再次发布这个bot，默认就可以访问了，不再是仅仅一个backend server
 
-<img width="384" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/7830380b-5306-4671-9caa-36f326a800de">
+<img width="1139" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/7830380b-5306-4671-9caa-36f326a800de">
 
 
 
