@@ -19,7 +19,7 @@ a.	首先通过js框架，生成了一个project，通过本地可以通过node 
 
 <img width="1139" alt="Screenshot 2023-08-28 at 16 18 44" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/fe555e83-cc2e-4610-970a-6f48438ad1b6">
 
-<img width="468" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/f557c00e-6ff6-4a55-9c13-a6c509436481">
+<img width="1139" alt="image" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/f557c00e-6ff6-4a55-9c13-a6c509436481">
 
 1.	可以通过bot文件，导入。主要是endpoint设定。
    
