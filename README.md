@@ -53,15 +53,27 @@ To open the Bot in MS Teams, click [HERE](https://teams.microsoft.com/l/chat/0/0
 ---
 
 ### 场景1. 使用bingsearch 获取最新事实消息，通过gpt加工简化变成易读易懂的简答咨询
+
+@bing，今天上海天气
+
 <img width="1300" alt="Public-Domain-information-BingSearch" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/45226a51-4765-423b-b872-b31d7d880880">
 
 ### 场景2. 使用chatgpt原始创作能力，做一些文字方面AIGC
+
+@chatgpt,开学了，以小学生的口吻，写一首打油诗，抒发自己愉快的心情。
+
 <img width="1300" alt="chatgpt-KB" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/0a064a29-cbc3-4803-929a-37cae466cf07">
 
 ### 场景3. 关系型数据作为知识库，对数据进行问答
+
+@sqlsearch， 总共有多少本书？
+
 <img width="1300" alt="Database-MySQL" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/c82908ec-97dd-4a9f-b698-5b0a2db962d8">
 
 ### 场景4. 使用搜索引擎作为非关系知识库，对文档进行问答
+
+@docsearch, 科大讯飞的主营业务是什么？
+
 <img width="1300" alt="Non-Relation-database-CongnitiveSearch" src="https://github.com/huqianghui/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/assets/7360524/aaab30c5-5081-4d30-8342-7133bef3de84">
 
 
